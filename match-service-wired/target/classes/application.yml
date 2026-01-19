@@ -1,0 +1,30 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/trading
+    username: match_svc
+    password: match_pw
+
+  flyway:
+    schemas: match
+    enabled: true
+
+  kafka:
+    bootstrap-servers: localhost:19092
+    listener:
+      concurrency: 3
+    consumer:
+      group-id: match-svc
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    properties:
+      spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JsonDeserializer
+      spring.json.value.default.type: java.util.LinkedHashMap
+      spring.json.trusted.packages: "*"
+      spring.json.add.type.headers: false

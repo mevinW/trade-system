@@ -1,0 +1,6 @@
+com\acme\match\db\TradeOrderRepository.class
+com\acme\match\MatchServiceApplication.class
+com\acme\match\consumer\RiskEventsConsumer.class
+com\acme\match\db\TradeOrderRepository$TradeOrderSnapshot.class
+com\acme\match\model\OrderFilled.class
+com\acme\match\messaging\Envelope.class

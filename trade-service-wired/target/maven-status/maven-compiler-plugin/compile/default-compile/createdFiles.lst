@@ -1,0 +1,6 @@
+com\acme\trade\order\OrderRepository.class
+com\acme\trade\order\OrderSubmitCommand.class
+com\acme\trade\messaging\Envelope.class
+com\acme\trade\order\OrderConsumer.class
+com\acme\trade\TradeServiceApplication.class
+com\acme\trade\order\RiskCheckCommand.class

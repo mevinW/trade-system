@@ -1,0 +1,8 @@
+com\acme\gateway\api\OrderController.class
+com\acme\gateway\order\OrderSubmitCommand$Side.class
+com\acme\gateway\order\OrderSubmitCommand.class
+com\acme\gateway\messaging\Envelope.class
+com\acme\gateway\GatewayServiceApplication.class
+com\acme\gateway\api\OrderController$SubmitOrderRequest.class
+com\acme\gateway\account\AccountClient$ValidateResponse.class
+com\acme\gateway\account\AccountClient.class

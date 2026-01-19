@@ -1,0 +1,9 @@
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\AccountServiceApplication.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\auth\ApiKeyService.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\auth\AuthController.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\db\BalanceRepository.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\messaging\Envelope.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\risk\RiskApproved.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\risk\RiskCheckCommand.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\risk\RiskConsumer.java
+C:\Users\wumin\trade-system\account-service-wired\src\main\java\com\acme\account\risk\RiskRejected.java
