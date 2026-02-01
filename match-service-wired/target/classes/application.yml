@@ -14,7 +14,7 @@ spring:
   kafka:
     bootstrap-servers: localhost:19092
     listener:
-      concurrency: 3
+      concurrency: 8
     consumer:
       group-id: match-svc
       auto-offset-reset: earliest

@@ -8,7 +8,7 @@ spring:
   kafka:
     bootstrap-servers: localhost:19092
     listener:
-      concurrency: 3
+      concurrency: 8
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
