@@ -1,10 +1,11 @@
-com\acme\account\db\BalanceRepository.class
 com\acme\account\messaging\Envelope.class
 com\acme\account\auth\AuthController.class
 com\acme\account\risk\RiskCheckCommand.class
 com\acme\account\risk\RiskConsumer.class
 com\acme\account\AccountServiceApplication.class
-com\acme\account\auth\ApiKeyService.class
 com\acme\account\risk\RiskRejected.class
 com\acme\account\auth\AuthController$ValidateResponse.class
 com\acme\account\risk\RiskApproved.class
+com\acme\account\db\BalanceRepository.class
+com\acme\account\auth\ApiKeyService.class
+com\acme\account\auth\ApiKeyService$CacheEntry.class

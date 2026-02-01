@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class AuthController {
   private final ApiKeyService apiKeyService;
 
+
   public AuthController(ApiKeyService apiKeyService) {
     this.apiKeyService = apiKeyService;
   }
